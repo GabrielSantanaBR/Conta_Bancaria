@@ -64,7 +64,7 @@ def depositar():
             else:
                 print("Valor deve ser positivo.")
         except ValueError:
-            print("Entrada inválida. Digite um número.")
+            print("Entrada inválida. Digite um número válido.")
 
 def ver_extrato():
     print("\nExtrato:")
