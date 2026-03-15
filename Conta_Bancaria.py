@@ -79,6 +79,7 @@ def ver_extrato():
             print("Saques:")
             for s in saques:
                 print(f"  -R$ {s:.2f}")
+
     # Contar usando o tamanho das listas
     num_depositos = len(depositos)
     num_saques = len(saques)
