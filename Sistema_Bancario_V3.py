@@ -173,6 +173,7 @@ usuarios = []
 contas = []
 AGENCIA = "0001"
 
+
 while True:
     opcao = menu()
 
@@ -208,3 +209,4 @@ while True:
 
     else:
         print("Opção invalida!")
+
